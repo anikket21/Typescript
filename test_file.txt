@@ -8,3 +8,4 @@ change from second branch.
 Third branch changes.
 Third branch second change.
 Fourth branch first change.
+Fourth branch second change.
