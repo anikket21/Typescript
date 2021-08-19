@@ -6,3 +6,4 @@ change on first branch, should not be visible on main branch.
 change from second branch.
 2nd change from second branch.
 Third branch changes.
+Third branch second change.
