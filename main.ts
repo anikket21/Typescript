@@ -7,7 +7,5 @@ import { Point } from './point';
 // let fun = (radius) => console.log(`radius is:  ${radius}`);
 // fun(5);
 
-let point = new Point();
-point.X = 1;
-let temp = point.X;
+let point = new Point(1,2);
 point.draw();

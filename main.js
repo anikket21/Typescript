@@ -1,4 +1,6 @@
-import { Point } from './point';
+"use strict";
+exports.__esModule = true;
+var point_1 = require("./point");
 // let msg: string;
 // msg = 'abc';
 // let chk = (<string>msg).endsWith('c');
@@ -6,7 +8,5 @@ import { Point } from './point';
 // console.log(anotherChk);
 // let fun = (radius) => console.log(`radius is:  ${radius}`);
 // fun(5);
-let point = new Point();
-point.X = 1;
-let temp = point.X;
+var point = new point_1.Point(1, 2);
 point.draw();

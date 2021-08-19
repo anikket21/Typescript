@@ -1,16 +1,14 @@
-export class Point {
-    constructor(x, y) {
+"use strict";
+exports.__esModule = true;
+exports.Point = void 0;
+var Point = /** @class */ (function () {
+    function Point(x, y) {
         this.x = x;
         this.y = y;
     }
-    draw() {
-        console.log(`X: ${this.x} Y: ${this.y}`);
-    }
-    get X() {
-        return this.x;
-    }
-    set X(value) {
-        if (value > 0)
-            this.x = value;
-    }
-}
+    Point.prototype.draw = function () {
+        console.log("X: " + this.x + " Y: " + this.y);
+    };
+    return Point;
+}());
+exports.Point = Point;
