@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var point_1 = require("./point");
+// let msg: string;
+// msg = 'abc';
+// let chk = (<string>msg).endsWith('c');
+// let anotherChk = (msg as string).endsWith('c');
+// console.log(anotherChk);
+// let fun = (radius) => console.log(`radius is:  ${radius}`);
+// fun(5);
+var point = new point_1.Point(1, 2);
+point.draw();
